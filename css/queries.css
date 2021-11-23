@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+  .top-nav {
+		display: none;
+	}
+	.logo-link {
+		display: none;
+	}
+	.wel-msg {
+		padding: 10% 15%;
+	}
+	.wel-msg h1{	
+		font-family: 'Inter', sans-serif;
+		font-size: 40px;
+		color: #fff;
+		text-shadow: 2px 2px 8px #ec5242;
+	}
+	.humbarger {
+		display: flex;
+		padding: 7% 0 0 10%;
+	}
+	
+	.humbarger img{
+		height: 20px;
+		width: 30px;
+	}
+	.wel-msg {
+		padding: 10% 10%;
+	}
+	
+}
