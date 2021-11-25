@@ -1,109 +1,125 @@
 @media screen and (max-width: 768px) {
-	.top-nav {
-		display: none;
-	}
-	.logo-link {
-		display: none;
-	}
-	.wel-msg {
-		padding: 10% 15%;
-	}
-	.wel-msg h1 {
-		font-family: 'cocogoose', sans-serif;
-		font-size: 40px;
-		color: #fff;
-		text-shadow: 2px 2px 8px #ec5242;
-	}
-	.humbarger {
-		display: flex;
-		padding: 7% 0 0 10%;
-	}  
-	.humbarger img {
-		height: 20px;
-		width: 30px;
-	}
-	.product-items {
-		display: block;
-	}
-	.disc-product {
-		margin: 15% 0;
-		height: 100%;
-		width: 100%;
-	}
-	.top-products {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: 400px;
-		grid-gap: 20px;
-		padding: 10px;
-	}
-	.top-ranked-products {
-		display: block;
-		justify-content: center;
-		padding: 15% 15%;
-	}
-	.tRanked-products h3 {
-		font-family: sans-serif;
-		font-size: 2vw;
-		padding: 1% 5%;
-	}
-	
-	.tRanked-products h2 {
-		font-family: sans-serif;
-		font-size: 2vw;
-		padding: 1% 5%;
-	}
-	
-	.tRanked-products p {
-		font-family: 'cocogoose-thin', sans-serif;
-		font-size: 2vw;
-		padding: 1% 3%;
-	}
-	.partner-names ul {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		justify-content: center;
-		margin-top: 25px;
-	}
-	.partner-names ul li {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		justify-content: center;
-		padding: 10px 30px;
-	}
-	.footermain {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.aknowlegement2 {
-		display: flex;
-		font-family: 'cocogoose-ultra-thin';
-		width: 60%;
-	}
-	.aknowlegement {
-		display: none;
-	}
-	.copyright {
-		min-width: 150px;
-		margin-right: 50px;
-	}
-	.sites {
-		display: block;
-	}
-	.about-disc h2 {
-		margin-top: 20px;
-		display: flex;
-		justify-content: center;
-		margin: 5% 5%;
-		color: #272a31;
-		font-family: 'cocogoose-ultra-thin';
-		text-align: center;
-	}
-	.goals p {
-		font-family: 'cocogoose-ultra-thin';
-		color: #272a31;
-		margin: 1% 5%;
-	}
+  .top-nav {
+    display: none;
+  }
+
+  .logo-link {
+    display: none;
+  }
+
+  .wel-msg {
+    padding: 10% 15%;
+  }
+
+  .wel-msg h1 {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 8px #ec5242;
+  }
+
+  .humbarger {
+    display: flex;
+    padding: 7% 0 0 10%;
+  }
+
+  .humbarger img {
+    height: 20px;
+    width: 30px;
+  }
+
+  .product-items {
+    display: block;
+  }
+
+  .disc-product {
+    margin: 15% 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .top-products {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  .top-ranked-products {
+    display: block;
+    justify-content: center;
+    padding: 15% 15%;
+  }
+
+  .tRanked-products h3 {
+    font-family: sans-serif;
+    font-size: 2vw;
+    padding: 1% 5%;
+  }
+
+  .tRanked-products h2 {
+    font-family: sans-serif;
+    font-size: 2vw;
+    padding: 1% 5%;
+  }
+
+  .tRanked-products p {
+    font-family: 'cocogoose-thin', sans-serif;
+    font-size: 2vw;
+    padding: 1% 3%;
+  }
+
+  .partner-names ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .partner-names ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 30px;
+  }
+
+  .footermain {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .aknowlegement2 {
+    display: flex;
+    font-family: 'cocogoose-ultra-thin', sans-serif;
+    width: 60%;
+  }
+
+  .aknowlegement {
+    display: none;
+  }
+
+  .copyright {
+    min-width: 150px;
+    margin-right: 50px;
+  }
+
+  .sites {
+    display: block;
+  }
+
+  .about-disc h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5% 5%;
+    color: #272a31;
+    font-family: 'cocogoose-ultra-thin', sans-serif;
+    text-align: center;
+  }
+
+  .goals p {
+    font-family: 'cocogoose-ultra-thin', sans-serif;
+    color: #272a31;
+    margin: 1% 5%;
+  }
 }
