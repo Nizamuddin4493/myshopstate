@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-  .top-nav {
+	.top-nav {
 		display: none;
 	}
 	.logo-link {
@@ -8,7 +8,7 @@
 	.wel-msg {
 		padding: 10% 15%;
 	}
-	.wel-msg h1{	
+	.wel-msg h1 {
 		font-family: 'cocogoose', sans-serif;
 		font-size: 40px;
 		color: #fff;
@@ -17,14 +17,10 @@
 	.humbarger {
 		display: flex;
 		padding: 7% 0 0 10%;
-	}
-	
-	.humbarger img{
+	}  
+	.humbarger img {
 		height: 20px;
 		width: 30px;
-	}
-	.wel-msg {
-		padding: 10% 10%;
 	}
 	.product-items {
 		display: block;
@@ -33,14 +29,13 @@
 		margin: 15% 0;
 		height: 100%;
 		width: 100%;
-		object-fit: cover;
 	}
 	.top-products {
 		display: grid;
-	  grid-template-columns: auto;
+		grid-template-columns: auto;
 		grid-template-rows: 400px;
-	  grid-gap: 20px;
-	  padding: 10px;
+		grid-gap: 20px;
+		padding: 10px;
 	}
 	.top-ranked-products {
 		display: block;
@@ -97,7 +92,7 @@
 	.sites {
 		display: block;
 	}
-	.about-disc h2{
+	.about-disc h2 {
 		margin-top: 20px;
 		display: flex;
 		justify-content: center;

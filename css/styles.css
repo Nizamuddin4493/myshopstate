@@ -32,7 +32,7 @@
 	display: flex;
 	color: #fff;
 	list-style: none;
-	align-items: center;	
+	align-items: center;
 }
 
 .top-nav ul li a {
@@ -53,11 +53,11 @@
 
 .logo-img img {
 	height: 35px;
-} 
+}
 
 .top-nav-2 ul {
 	display: flex;
-	list-style: none;	
+	list-style: none;
 }
 
 .top-nav-2 ul li {
@@ -74,7 +74,6 @@
 
 .active {
 	color: #ec5242;
-	/* text-shadow: 2px 2px 2px #272a31; */
 }
 
 .active-humbarger {
@@ -82,16 +81,12 @@
 	text-shadow: 3px 3px 10px #272a31;
 }
 
-.humbarger-menu {
-	display: none;
-}
-
 .heading-content {
 	background-image: url('../images/heading-bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
-  position: relative;
+	background-size: cover;
+	position: relative;
 	min-height: 600px;
 }
 
@@ -99,7 +94,7 @@
 	padding: 10% 15%;
 }
 
-.wel-msg h1{	
+.wel-msg h1 {
 	font-family: 'cocogoose';
 	font-size: 70px;
 	color: #fff;
@@ -111,7 +106,7 @@
 	text-shadow: 2px 2px 8px #fff;
 }
 
-.wel-msg p{
+.wel-msg p {
 	max-width: 550px;
 	color: #ec5242;
 	margin-top: 10px;
@@ -128,7 +123,7 @@
 	justify-content: center;
 	padding: 2% 15%;
 	min-height: 300px;
-	width: calc(100vw, 10px);
+	width: calc(100vw - 10px);
 	background-image: url('../images/descount-bg-img.png');
 }
 
@@ -171,7 +166,7 @@
 	font-family: 'cocogoose-ultra-thin', sans-serif;
 }
 
-.see-more a{
+.see-more a {
 	text-decoration: none;
 	color: #d3d3d3;
 }
@@ -193,10 +188,10 @@
 
 .top-products {
 	display: grid;
-  grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto;
 	grid-template-rows: 400px 400px;
-  grid-gap: 20px;
-  padding: 10px;
+	grid-gap: 20px;
+	padding: 10px;
 }
 
 .tRanked-products {
@@ -218,14 +213,13 @@
 }
 
 .tRanked-products h2 {
-	font-family:  sans-serif;
+	font-family: sans-serif;
 	font-size: 1vw;
 	padding: 1% 5%;
 }
 
 .tRanked-products p {
 	font-family: 'cocogoose-ultra-thin', sans-serif;
-	font-size: 10px;
 	font-weight: 400;
 	font-size: 1vw;
 	padding: 1% 2%;
@@ -252,7 +246,7 @@
 }
 
 .aknowlegement span {
-	font-family: serif;
+	font-family: sans-serif;
 }
 
 .aknowlegement h2 {
@@ -262,6 +256,7 @@
 .aknowlegement2 {
 	display: none;
 }
+
 /* Humbarger Mune style for display menu  */
 .humbarger {
 	display: none;
@@ -289,12 +284,13 @@
 	padding: 15px 20px;
 	border-bottom: 2px solid #d3d3d3;
 }
-.humbarger-menu img{
+.humbarger-menu img {
 	float: right;
 	margin: 20px 30px;	
 	height: 25px;
 	width: 25px;
 }
+
 .humbarger-menu ul li a {
 	font-family: 'cocogoose-thin', sans-serif;
 	text-decoration: none;
@@ -332,14 +328,14 @@
 	text-align: center;
 }
 
-.wel-msg-about h1{	
+.wel-msg-about h1 {
 	font-family: 'cocogoose';
 	font-size: 40px;
 	color: #fff;
 	text-shadow: 2px 2px 8px #ec5242;
 }
 
-.wel-msg-about p{
+.wel-msg-about p {
 	max-width: 700px;
 	color: #ec5242;
 	margin: 10px auto;
@@ -373,7 +369,7 @@
 	font-weight: 400;
 }
 
-.about-disc h2{
+.about-disc h2 {
 	margin-top: 20px;
 	display: flex;
 	justify-content: center;
@@ -382,16 +378,7 @@
 	font-family: 'cocogoose-ultra-thin';
 }
 
-.hr-line {
-	margin: auto;
-	width: 50px;
-	border: 1px solid #ec5242;
-	margin-bottom: 20px;
-}
-
 .goals {
-	/* border: 1px solid #d3d3d3; */
-	/* background-color: #f0f0f0; */
 	text-align: center;
 	margin: 2% auto;
 	max-width: 600px;
@@ -403,7 +390,7 @@
 }
 
 .goals img {
-	margin: 4% 0 ;
+	margin: 4% 0;
 	width: 60%;
 }
 
@@ -416,10 +403,6 @@
 	margin: 20px 30px;
 	height: 50%;
 	width: 50%;
-}
-
-.imgHeight {
-	/* height: 200px; */
 }
 
 .about-footermain {
