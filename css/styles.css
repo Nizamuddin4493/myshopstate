@@ -36,7 +36,7 @@
 }
 
 .top-nav ul li a {
-	font-family: 'cocogoose-thin', sans-serif;
+	font-family: 'cocogoose-ultra-thin', sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 	color: #fff;
@@ -65,11 +65,21 @@
 }
 
 .top-nav-2 ul li a {
-	font-family: 'cocogoose-thin', sans-serif;
+	font-family: 'cocogoose-ultra-thin', sans-serif;
 	font-size: 16px;
 	text-decoration: none;
 	color: #272a31;
 	padding: 0 10px;
+}
+
+.active {
+	color: #ec5242;
+	/* text-shadow: 2px 2px 2px #272a31; */
+}
+
+.active-humbarger {
+	color: #ec5242;
+	text-shadow: 3px 3px 10px #272a31;
 }
 
 .humbarger-menu {
@@ -308,4 +318,111 @@
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 25px;
+}
+
+/* about me page CSS desing */
+.aboutPageContent {
+	background-image: url('../images/about-bg.png');
+	background-repeat: repeat-x;
+	min-height: 600px;
+}
+
+.wel-msg-about {
+	padding: 10% 15%;
+	text-align: center;
+}
+
+.wel-msg-about h1{	
+	font-family: 'cocogoose';
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 2px 2px 8px #ec5242;
+}
+
+.wel-msg-about p{
+	max-width: 700px;
+	color: #ec5242;
+	margin: 10px auto;
+	padding: 10px 10px;
+	border: 2px dashed #ec5242;
+	background-color: #f0cdcd;
+	font-size: 15px;
+	font-family: 'cocogoose-thin', sans-serif;
+	text-shadow: 2px 2px 8px #fff;
+	text-align: center;
+}
+
+.wel-msg-about h2 {
+	margin-top: 20px;
+	font-family: 'cocogoose-ultra-thin';
+	font-size: 16px;
+	color: #272a31;
+}
+
+.about-mss {
+	color: #ec5242;
+	font-family: 'cocogoose-thin';
+	text-shadow: 2px 2px 8px #ec5242; 
+}
+
+.email {
+	margin-top: 15px;
+	font-family: sans-serif;
+	color: #272a31;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.about-disc h2{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	color: #272a31;
+	font-family: 'cocogoose-ultra-thin';
+}
+
+.hr-line {
+	margin: auto;
+	width: 50px;
+	border: 1px solid #ec5242;
+	margin-bottom: 20px;
+}
+
+.goals {
+	/* border: 1px solid #d3d3d3; */
+	/* background-color: #f0f0f0; */
+	text-align: center;
+	margin: 2% auto;
+	max-width: 600px;
+}
+
+.goals p {
+	font-family: 'cocogoose-ultra-thin';
+	color: #272a31;
+}
+
+.goals img {
+	margin: 4% 0 ;
+	width: 60%;
+}
+
+.sites {
+	display: flex;
+	justify-content: space-around;
+}
+
+.sites img {
+	margin: 20px 30px;
+	height: 50%;
+	width: 50%;
+}
+
+.imgHeight {
+	/* height: 200px; */
+}
+
+.about-footermain {
+	background-color: #272a31;
+	color: #d3d3d3;
 }

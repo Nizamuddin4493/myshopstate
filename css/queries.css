@@ -94,4 +94,21 @@
 		min-width: 150px;
 		margin-right: 50px;
 	}
+	.sites {
+		display: block;
+	}
+	.about-disc h2{
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		margin: 5% 5%;
+		color: #272a31;
+		font-family: 'cocogoose-ultra-thin';
+		text-align: center;
+	}
+	.goals p {
+		font-family: 'cocogoose-ultra-thin';
+		color: #272a31;
+		margin: 1% 5%;
+	}
 }
