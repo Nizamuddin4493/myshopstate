@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../fonts/cocogoose/cocogoose-pro.letterpress.ttf);
+}
+
+@font-face {
+  font-family: cocogoose-thin;
+  src: url(../fonts/cocogoose/cocogoose-pro.regular.ttf);
+}
+
+@font-face {
+  font-family: cocogoose-ultra-thin;
+  src: url(../fonts/cocogoose/cocogoose-pro.ultralight.ttf);
+}
+
+.top-nav {
+  width: 100%;
+  height: 30px;
+  padding: 0 15%;
+  background-color: #272a31;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-nav ul {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  align-items: center;
+}
+
+.top-nav ul li a {
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 15%;
+}
+
+.logo-img img {
+  height: 35px;
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 10px;
+  color: #d3d3d3;
+  font-size: 18px;
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+}
+
+.see-more-a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.top-nav-2 ul {
+  display: flex;
+  list-style: none;
+}
+
+.top-nav-2 ul li {
+  padding-left: 20px;
+}
+
+.top-nav-2 ul li a {
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #272a31;
+  padding: 0 10px;
+}
+
+.active {
+  color: #ec5242;
+}
+
+.active-humbarger {
+  color: #ec5242;
+  text-shadow: 3px 3px 10px #272a31;
+}
+
+.heading-content {
+  background-image: url('../images/heading-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 600px;
+}
+
+.wel-msg {
+  padding: 10% 15%;
+}
+
+.wel-msg h1 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 70px;
+  color: #fff;
+  text-shadow: 2px 2px 8px #ec5242;
+}
+
+#shop-text {
+  color: #ec5242;
+  text-shadow: 2px 2px 8px #fff;
+}
+
+.wel-msg p {
+  max-width: 550px;
+  color: #ec5242;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border: 2px dashed #ec5242;
+  background-color: #f0cdcd;
+  font-size: 15px;
+  font-family: 'cocogoose-thin', sans-serif;
+  text-shadow: 2px 2px 8px #fff;
+}
+
+.discount-section {
+  display: block;
+  justify-content: center;
+  padding: 2% 15%;
+  min-height: 300px;
+  width: calc(100vw - 10px);
+  background-image: url('../images/descount-bg-img.png');
+}
+
+.product-items {
+  display: flex;
+}
+
+.disc-h2 h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #d3d3d3;
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+}
+
+.hr-line {
+  margin: auto;
+  width: 50px;
+  border: 1px solid #ec5242;
+  margin-bottom: 20px;
+}
+
+.disc-product {
+  margin: 1% 2%;
+  min-width: 158px;
+  height: 250px;
+}
+
+.disc-product img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-ranked-products {
+  display: block;
+  justify-content: center;
+  padding: 2% 15%;
+}
+
+.t-r-p h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #272a31;
+  font-size: 20px;
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+}
+
+.top-products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 400px 400px;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.tRanked-products {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tRanked-products img {
+  border-radius: 10px;
+  width: 100%;
+  height: 70%;
+}
+
+.tRanked-products h3 {
+  font-family: sans-serif;
+  font-size: 1vw;
+  padding: 1% 5%;
+}
+
+.tRanked-products h2 {
+  font-family: sans-serif;
+  font-size: 1vw;
+  padding: 1% 5%;
+}
+
+.tRanked-products p {
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  padding: 1% 2%;
+}
+
+.footermain {
+  display: flex;
+  padding: 3% 15%;
+}
+
+.copyright {
+  width: 30%;
+  min-height: 100px;
+}
+
+.copyright img {
+  width: 150px;
+}
+
+.aknowlegement {
+  width: 70%;
+  min-height: 100px;
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+}
+
+.aknowlegement span {
+  font-family: sans-serif;
+}
+
+.aknowlegement h2 {
+  margin-bottom: 20px;
+}
+
+.aknowlegement2 {
+  display: none;
+}
+
+/* Humbarger Mune style for display menu  */
+.humbarger {
+  display: none;
+}
+
+.humbarger-menu {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#ed5242, #fff);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.humbarger-menu ul {
+  list-style: none;
+}
+
+.humbarger-menu ul li {
+  padding: 15px 20px;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.humbarger-menu img {
+  float: right;
+  margin: 20px 30px;
+  height: 25px;
+  width: 25px;
+}
+
+.humbarger-menu ul li a {
+  font-family: 'cocogoose-thin', sans-serif;
+  text-decoration: none;
+  color: #d3d3d3;
+  padding: 0 10px;
+  font-size: 25px;
+}
+
+.partners {
+  background-color: #272a31;
+  width: 100%;
+  min-height: 200px;
+  display: block;
+  justify-content: center;
+  padding: 2% 15%;
+}
+
+.partner-names ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+/* about me page CSS desing */
+.aboutPageContent {
+  background-image: url('../images/about-bg.png');
+  background-repeat: repeat-x;
+  min-height: 600px;
+}
+
+.wel-msg-about {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.wel-msg-about h1 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 8px #ec5242;
+}
+
+.wel-msg-about p {
+  max-width: 700px;
+  color: #ec5242;
+  margin: 10px auto;
+  padding: 10px 10px;
+  border: 2px dashed #ec5242;
+  background-color: #f0cdcd;
+  font-size: 15px;
+  font-family: 'cocogoose-thin', sans-serif;
+  text-shadow: 2px 2px 8px #fff;
+  text-align: center;
+}
+
+.wel-msg-about h2 {
+  margin-top: 20px;
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+  font-size: 16px;
+  color: #272a31;
+}
+
+.about-mss {
+  color: #ec5242;
+  font-family: 'cocogoose-thin', sans-serif;
+  text-shadow: 2px 2px 8px #ec5242;
+}
+
+.email {
+  margin-top: 15px;
+  font-family: sans-serif;
+  color: #272a31;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.about-disc h2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #272a31;
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+}
+
+.goals {
+  text-align: center;
+  margin: 2% auto;
+  max-width: 600px;
+}
+
+.goals p {
+  font-family: 'cocogoose-ultra-thin', sans-serif;
+  color: #272a31;
+}
+
+.goals img {
+  margin: 4% 0;
+  width: 60%;
+}
+
+.sites {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sites img {
+  margin: 20px 30px;
+  height: 50%;
+  width: 50%;
+}
+
+.about-footermain {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
